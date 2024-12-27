@@ -4,33 +4,64 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+<!-- TEMP WAY -->
+* <strong>Neural Video Representation for Redundancy Reduction and Consistency Preservation</strong> <br>
+  Taiga Hayami, Takahiro Shindo, <strong>Shunsuke Akamatsu</strong>, Hiroshi Watanabe
+  <br>
+  To appear at IEEE ICCE 2025 <br>
+  [arXiv](https://arxiv.org/abs/2409.18497) 
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+* <strong>Improving Image Coding for Machines through Optimizing Encoder via Auxiliary Loss</strong> <br>
+  Kei Iino, <strong>Shunsuke Akamatsu</strong>, Hiroshi Watanabe, Shohei Enomoto, Akira Sakamoto, Takeharu Eda
+  <br>
+  IEEE ICIP 2024 <br>
+  [paper](https://ieeexplore.ieee.org/document/10647577)
+
+* <strong>Classification in Japanese Sign Language Based on Dynamic Facial Expressions</strong> <br>
+  Yui Tatsumi, Shoko Tanaka, <strong>Shunsuke Akamatsu</strong>, Takahiro Shindo, Hiroshi Watanabe
+  <br>
+  IEEE GCCE 2024 <br>
+  [arXiv](https://arxiv.org/abs/2411.06347) 
+  
+* <strong>On The Impact of Learning-based Image Compression on Computer Vision Tasks</strong> <br>
+  <strong>Shunsuke Akamatsu</strong>, Michela Testolina, Evgeniy Upenik, Touradj Ebrahimi
+  <br>
+  SPIE Applications of Digital Image Processing XLVII <br>
+  [paper](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13137/131370M/On-the-impact-of-learning-based-image-compression-on-computer/10.1117/12.3030885.short?webSyncID=49dab6a0-cbad-0593-29ad-883c9d902bc9&sessionGUID=993ced26-8bea-d49a-2853-1ab0d3a6b03c&tab=ArticleLink)
+
+* <strong>Bounding Box Aware Edge-Cloud Collaborative Method for Multiple Object Detection</strong> <br>
+  <strong>Shunsuke Akamatsu</strong>, Hiroshi Watanabe
+  <br>
+  IEEE AIC 2024<br>
+  [paper](https://ieeexplore.ieee.org/document/10731035)
+
+* <strong>Edge-Cloud Collaborative Object Detection Model with Feature Compression</strong> <br>
+  <strong>Shunsuke Akamatsu</strong>, Kei Iino, Hiroshi Watanabe, Shohei Enomoto, Akira Sakamoto, Takeharu Eda <br>
+  IIEEJ IEVC 2024 <br>
+  [paper](https://www.ams.giti.waseda.ac.jp/data/pdf-files/2024IEVC_LBP-12.pdf)
+
+* <strong>Image Coding for Machines with Objectness-based Feature Distillation</strong> <br>
+  Kei Iino, <strong> Shunsuke Akamatsu</strong>, Hiroshi Watanabe, Shohei Enomoto, Akira Sakamoto, Takeharu Eda <br>
+  IIEEJ IEVC 2024 <br>
+  [paper](https://www.ams.giti.waseda.ac.jp/data/pdf-files/2024IEVC_LBP-07.pdf)
+
+* <strong>Introduction of Auxiliary Loss in Deep Image Compression for Image Recognition</strong> <br>
+Kei Iino, <strong> Shunsuke Akamatsu</strong>, Hiroshi Watanabe, Shohei Enomoto, Akira Sakamoto, Takeharu Eda <br>
+IEICE 2024 <br>
+[paper](https://www.ams.giti.waseda.ac.jp/data/pdf-files/2024IEICE_D-12A-37.pdf)
+
+* <strong>A Video Object Detection Method of ECNet Based on Frame Difference and Grid Cell Confidence</strong> <br>
+<strong> Shunsuke Akamatsu</strong>, Kei Iino, Hiroshi Watanabe, Shohei Enomoto, Xu Shi, Akira Sakamoto, Takeharu Eda <br>
+IEEE GCCE 2023 <br>
+[paper](https://ieeexplore.ieee.org/abstract/document/10315349)
+<!-- TEMP WAY END -->
+
+{% if author.googlescholar %}
+  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
