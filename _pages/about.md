@@ -6,9 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a master's student majoring in Computer Science at Columbia University. Before pursuing my master's degree, I completed my undergraduate studies at Waseda University, where I worked on image/video processing research at Advanced Multimedia Lab supervised by professor Hiroshi Watanabe. My academic journey has been defined by a strong foundation and experience in artificial intelligence, machine learning, and computer vision.
+I am a master's student majoring in Computer Science at [Columbia University](https://www.cs.columbia.edu/). Prior to beginning my master's degree, I completed my undergraduate studies at [Waseda University](https://www.comm.waseda.ac.jp/en/index.html), where I conducted research in image and video processing at Advanced Multimedia Systems Lab ([AMS](https://www.ams.giti.waseda.ac.jp/)) under the supervision of Prof. Hiroshi Watanabe. My academic journey has been defined by a strong foundation and experience in artificial intelligence, machine learning, and computer vision.
 
-During my undergraduate years, I led a research project on real-time object detection systems using edge-cloud cooperative neural networks as my senior research project. In addition to my research project, I conducted joint research internship at NTT research team. I also did research internship at Multimedia Signal Processing Group headed by Prof. Touradj Ebrahimi at Swiss Federal Technology Institute of Lausanne (EPFL), where I worked on the investigation about the impact of learning-based image compression methods including future JPEG AI standard on computer vision tasks. 
+During my undergraduate years, I led a research project on real-time object detection systems using edge-cloud cooperative neural networks as my senior research project. In addition to my research project, I conducted joint research internship at [NTT](https://www.rd.ntt/e/sic/). I also did research internship at Multimedia Signal Processing Group ([MMSPG](https://www.epfl.ch/labs/mmspg/)) headed by Prof. Touradj Ebrahimi at [Swiss Federal Technology Institute of Lausanne (EPFL)] (https://www.epfl.ch/en/), where I worked on a study on the impact of learning-based image compression methods, including the upcoming JPEG AI standard, on computer vision tasks 
 
 Currently, at Columbia, I am deepening my knowledge in areas such as machine learning, databases, and user interface design through courseworks and projects.
 
@@ -21,4 +21,4 @@ News
 - **[Sep 2024]** Starting my master's degree at Columbia University.
 - **[Mar 2024]** Completed my bachelor's degree at Waseda University with dean's award and department award!
 - **[Sep 2023]** Starting my research internship at at Multimedia Signal Processing Group headed by Prof. Touradj Ebrahimi at Swiss Federal Technology Institute of Lausanne (EPFL).
-- **[Apr 2023]** Starting the joint research project with NTT Corporation.
+- **[Apr 2023]** Starting the joint research project with NTT.
