@@ -18,6 +18,7 @@ I aim to leverage my technical expertise, research experience, and collaborative
 
 News
 ======
+- **[Jun 2025]** Starting my summer internship at SONY.
 - **[Sep 2024]** Starting my master's degree at Columbia University.
 - **[Mar 2024]** Completed my bachelor's degree at Waseda University with dean's award and department award!
 - **[Sep 2023]** Starting my research internship at at Multimedia Signal Processing Group headed by Prof. Touradj Ebrahimi at Swiss Federal Technology Institute of Lausanne (EPFL).
